@@ -1,9 +1,30 @@
                                               BINOMIAL COEFFICIENTS
+											 -----------------------
+											 
 The positive integers which are coefficients in binomial theorem are called as Binomial Coefficients.Generation of the Binomial 
 Coefficients via programming:-
+
 I)DYNAMIC PROGRAMMING(DP)
 The binomial coefficient(nCk) generation can be programmed by DP because this problem can be divided into overlapping sub-problems and the sub 
 problem can be represented by table.
-  i)Method 1
-  A 2-D array of 'n' rows and 'k' columns is generated and values in each cell can be stored from  
+ --->Method 1
+  A 2-D array of 'n' rows and 'k' columns is generated and values in each cell gives us 0C0 till nCk.
+ --->Method 2(Improvisation of method 1.)
+  The 2-D array in above method can be compressed to 1-D array which stores only values of last row of binomial coefficients.
+  
+II)RECURSION
+Using a recursive function call to generate the coefficient nCk.
 
+
+COMPARISION
+
+METHOD			|	SPACE-COMPLEXITY	|	TIME-COMPLEXITY
+------------------------------------------------------------
+	|Method1	|		O(n*k)			|	O(n*k)
+DP	|-------------------------------------------------------
+	|Method2	|		O(k)			|	O(n*k)
+------------------------------------------------------------
+ 				|						|
+ Recursion		|		O(2^n)			|	O(2^n)
+				|						|
+------------------------------------------------------------	
