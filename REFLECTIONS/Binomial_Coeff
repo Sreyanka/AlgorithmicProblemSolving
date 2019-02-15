@@ -1,2 +1,9 @@
+                                              BINOMIAL COEFFICIENTS
+The positive integers which are coefficients in binomial theorem are called as Binomial Coefficients.Generation of the Binomial 
+Coefficients via programming:-
+I)DYNAMIC PROGRAMMING(DP)
+The binomial coefficient(nCk) generation can be programmed by DP because this problem can be divided into overlapping sub-problems and the sub 
+problem can be represented by table.
+  i)Method 1
+  A 2-D array of 'n' rows and 'k' columns is generated and values in each cell can be stored from  
 
-The positive integers which are coefficients in binomial theorem are called as Binomial Coefficients.
